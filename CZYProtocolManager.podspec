@@ -1,4 +1,4 @@
-#
+#i
 #  Be sure to run `pod spec lint CZYProtocolManager.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "https://github.com/ichenzy/CZYProtocolManager.git"
+  s.homepage     = "https://github.com/ichenzy/CZYProtocolManager"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #
 
 
-  s.source       = { :git => "http://EXAMPLE/CZYProtocolManager.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/ichenzy/CZYProtocolManager.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
