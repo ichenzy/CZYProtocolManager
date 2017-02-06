@@ -10,4 +10,8 @@
 
 @interface CZYProtocolManager : NSObject
 
++ (void)registSourceProvide:(id)provide forProtocol:(Protocol *)protocol;
+
++ (id)sourceProvideForProtocol:(Protocol *)protocol;
+
 @end

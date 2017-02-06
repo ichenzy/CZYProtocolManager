@@ -15,6 +15,7 @@
 		AD09D5501E4855E9003AD3AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD09D54E1E4855E9003AD3AE /* LaunchScreen.storyboard */; };
 		AD09D55B1E4855E9003AD3AE /* CZYProtocolManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD09D55A1E4855E9003AD3AE /* CZYProtocolManagerTests.m */; };
 		AD09D5661E4855E9003AD3AE /* CZYProtocolManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD09D5651E4855E9003AD3AE /* CZYProtocolManagerUITests.m */; };
+		AD09D5761E48568C003AD3AE /* CZYProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD09D5751E48568C003AD3AE /* CZYProtocolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AD09D5611E4855E9003AD3AE /* CZYProtocolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZYProtocolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD09D5651E4855E9003AD3AE /* CZYProtocolManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZYProtocolManagerUITests.m; sourceTree = "<group>"; };
 		AD09D5671E4855E9003AD3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD09D5741E48568C003AD3AE /* CZYProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZYProtocolManager.h; sourceTree = "<group>"; };
+		AD09D5751E48568C003AD3AE /* CZYProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZYProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		AD09D53F1E4855E9003AD3AE /* CZYProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
+				AD09D5731E485673003AD3AE /* CZYProtocolManager */,
 				AD09D5431E4855E9003AD3AE /* AppDelegate.h */,
 				AD09D5441E4855E9003AD3AE /* AppDelegate.m */,
 				AD09D5461E4855E9003AD3AE /* ViewController.h */,
@@ -138,6 +142,15 @@
 				AD09D5671E4855E9003AD3AE /* Info.plist */,
 			);
 			path = CZYProtocolManagerUITests;
+			sourceTree = "<group>";
+		};
+		AD09D5731E485673003AD3AE /* CZYProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				AD09D5741E48568C003AD3AE /* CZYProtocolManager.h */,
+				AD09D5751E48568C003AD3AE /* CZYProtocolManager.m */,
+			);
+			path = CZYProtocolManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +288,7 @@
 			files = (
 				AD09D5481E4855E9003AD3AE /* ViewController.m in Sources */,
 				AD09D5451E4855E9003AD3AE /* AppDelegate.m in Sources */,
+				AD09D5761E48568C003AD3AE /* CZYProtocolManager.m in Sources */,
 				AD09D5421E4855E9003AD3AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
