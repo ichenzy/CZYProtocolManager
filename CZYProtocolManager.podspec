@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CZYProtocolManager"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A short description of CZYProtocolManager."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,8 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/CZYProtocolManager.git", :tag => "0.0.1" }
+
+  s.source       = { :git => "http://EXAMPLE/CZYProtocolManager.git", :tag => "0.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
