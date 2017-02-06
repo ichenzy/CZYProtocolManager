@@ -437,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CZYProtocolManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xianlife.CZYProtocolManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CZYProtocolManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xianlife.CZYProtocolManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -519,6 +521,7 @@
 				AD09D56C1E4855E9003AD3AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD09D56D1E4855E9003AD3AE /* Build configuration list for PBXNativeTarget "CZYProtocolManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +530,7 @@
 				AD09D56F1E4855E9003AD3AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD09D5701E4855E9003AD3AE /* Build configuration list for PBXNativeTarget "CZYProtocolManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +539,7 @@
 				AD09D5721E4855E9003AD3AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
